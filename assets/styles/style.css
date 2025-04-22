@@ -1,0 +1,113 @@
+/* style.css */
+
+/* Importation de la police Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Définition des variables globales pour les couleurs */
+:root {
+  --color-text-white: #ffffff;
+  --color-text-ligth-gray: #cccccc;
+
+  --color-background-gray: #1d1d1d;
+  --color-background-black: #0d0d0d;
+
+  --color-secondary-dark-blue: hsl(238, 67%, 50%);
+  --color-secondary-blue: hsl(211, 100%, 50%);
+  --color-secondary-blue-hover: hsl(238, 98%, 60%);
+}
+
+/* Reset général */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--color-background-gray);
+  color: var(--color-text-white);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  padding-bottom: 0.75rem;
+}
+
+h2,
+h3 {
+  padding-bottom: 0.25em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-secondary-white);
+  /* transition: transform 0.2s ease, color 0.2s ease; */
+}
+
+li {
+  list-style: none;
+}
+
+/* a:hover,
+a:focus,
+a:active {
+  color: var(--color-secondary-blue-hover);
+  transform: scale(1.05);
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.5rem 4rem;
+  width: 100%;
+}
+
+nav {
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  padding: 0 1.5rem 3rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+
+.hero-text h2 {
+  font-size: 1.75rem;
+  color: var(--color-secondary-dark-blue);
+}
+
+.hero img {
+  max-width: 50%;
+  display: block;
+}
