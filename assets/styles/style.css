@@ -11,9 +11,8 @@
   --color-background-gray: #1d1d1d;
   --color-background-black: #0d0d0d;
 
-  --color-secondary-dark-blue: hsl(238, 67%, 50%);
-  --color-secondary-blue: hsl(211, 100%, 50%);
-  --color-secondary-blue-hover: hsl(238, 98%, 60%);
+  --color-secondary-blue: #353cfd;
+  --color-secondary-dark-blue: #121afd;
 }
 
 /* Reset général */
@@ -104,10 +103,73 @@ nav ul {
 
 .hero-text h2 {
   font-size: 1.75rem;
-  color: var(--color-secondary-dark-blue);
+  color: var(--color-secondary-blue);
 }
 
 .hero img {
   max-width: 50%;
   display: block;
+}
+
+.footer_container {
+  display: flex;
+  background: var(--color-background-black);
+  padding: 1rem;
+  margin: 0 0.5rem 1.5rem;
+  gap: 6rem;
+}
+
+.core-technologies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: var(--color-secondary-blue);
+  text-align: center;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.25rem;
+  width: 50%;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary-dark-blue);
+}
+
+.our-investors {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 2rem;
+}
+
+.our-investors h3 {
+  padding: 0;
+}
+
+.logos-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+#gv-logo {
+  max-width: 4rem;
+}
+#firstmark-logo {
+  max-width: 9rem;
+}
+#khosla-ventures-logo {
+  max-width: 6rem;
 }
