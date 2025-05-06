@@ -1,6 +1,6 @@
 # 🚀 Helium – Challenge From Scratch
 
-> 🧑‍🏫 Un projet réalisé dans le cadre de la formation "Développement Web" proposée par **From Scratch**
+> 🧑‍🏫 Un projet réalisé dans le cadre de la formation "Développement Web" proposée par [From Scratch](https://fromscratch.podia.com/)
 
 ---
 
